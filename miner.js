@@ -264,7 +264,7 @@ async function Mine() {
   const username = "frenow";
   const key = "None";
   const base_url = "http://51.15.127.80";
-  const diff = 10000;
+  const diff = 100;
 
   try {
     const job = await httpGet(
